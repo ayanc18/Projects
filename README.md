@@ -9,4 +9,6 @@ OnlineSeat : A simple demo of online seat allocation logic/algorithm using JQuer
 
 Interactive Learning Tools  : An interactive demo game to teach finanical knowledge to end-users, developed using Object-oriented Javascript and JQuery.
 
+Garage Management App : A demo of a hybrid app built with Intel XDK and Apache Cordova to serve the purpose. 
+
 
