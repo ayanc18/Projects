@@ -11,4 +11,6 @@ Interactive Learning Tools  : An interactive demo game to teach finanical knowle
 
 Garage Management App : A demo of a hybrid app built with Intel XDK and Apache Cordova to serve the purpose. 
 
+Online Video Library Management System : A demo JSP, Java EE based Web application which serves the management system purpose.
+
 
