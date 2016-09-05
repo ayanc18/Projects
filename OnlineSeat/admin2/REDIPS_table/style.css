@@ -1,0 +1,16 @@
+/*
+
+Ayan Chandra
+http://ayan.bongdev.com
+2015.
+
+*/
+body {
+	font-family: arial;
+}
+
+/* container with all element in center */
+#container {
+	margin: auto;
+	width: 800px;
+}
