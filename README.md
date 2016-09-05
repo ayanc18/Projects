@@ -7,4 +7,6 @@ SolarEclipse : A demo simulation of game using Unity 5.
 
 OnlineSeat : A simple demo of online seat allocation logic/algorithm using JQuery.
 
+Interactive Learning Tools  : An interactive demo game to teach finanical knowledge to end-users, developed using Object-oriented Javascript and JQuery.
+
 
