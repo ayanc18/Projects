@@ -1,0 +1,49 @@
+<!--<ion-view view-title="Guess The Word">-->
+    <ion-content class="main-content" scroll="true" scrollbar-x="true" scrollbar-y="true">
+        <div ng-if="(isGameOpen===false)">
+            <!--<div class="center wordFromGlossary">Guess The Word </div>-->
+            <h1 class="game-heading center">Financial Literacy Quiz</h1>
+           <br /><br /><br />
+                <h2 class="rules-heading center">Rules:</h2>
+            <p class="center">
+                <span class="rules">1. This game will show you a clue to a term and also show the number of words/letters in the word.</span><br />
+                <span class="rules">2. You need to think and guess the correct word by clicking letters that form the word.</span><br />
+                <span class="rules">3. If you get a wrong letter, keep trying, as you get upto 6 wrong attempts.</span>
+            </p><br /><br />
+            <div class="center">
+                <span class="navigate"> <a href=" #" ng-click="enterGame();">Start</a></span>
+            </div>
+        </div>
+        <div ng-if="(isGameOpen===true)">
+            <div ng-if="(isGameOver===false)">
+
+                <div class="">
+                    <!--<span class="left score"> Score: {{ score }}</span>-->
+
+                <div class="center"><span class="quesNo">{{ noOfQuestionsAttempted }}/{{ totalNoOfQuestions }}</span></div>
+                <div class="question" ng-if="showStatement===true">{{ question }}.</div>
+                <br /><br />
+                
+
+                    <div class="">
+                        <div class="availablecharacters" ng-repeat="availableOption in availableOptions" ng-click="optionAttempted(availableOption)" ng-class="(availableOption.isAttempted===true)?'attempted':'availablecharacters'">{{availableOption.option}}</div>
+                    </div>
+
+                    <br />
+
+                <div class="right">
+                    <a class="navigate" id="nextquestion" ng-if="isQuestionInProgress===false" ng-click="loadQuestion();">Next &raquo;</a>
+                </div><br />
+
+            </div>
+			</div>
+            <div ng-if="(isGameOver===true)" class="game-over">
+                <div class="center endscore"> You Scored {{ score }} points</div>
+                <div class="center" id="footer">
+                    <span class="navigate "><a ng-click="resetQuiz();">Try Again</a></span>
+                    <!--span class="right navigate">Submit Scores</span-->
+                </div>
+            </div>
+        </div>
+    </ion-content>
+<!--</ion-view>-->

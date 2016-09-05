@@ -1,0 +1,13 @@
+{
+  "name": "GuessTheWord",
+  "description": "A word guessing game",
+  "launch_path": "/index.html",
+  "icons":{
+	"128":"/a3.png"
+	},
+  "developer": {
+	"name": "Ayan Chandra" ,
+	"url":"http://ayan.bongdev.com"
+	},
+	"default_locale": "en"
+}

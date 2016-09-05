@@ -1,0 +1,239 @@
+/* Author: Ayan Chandra
+   For: elearnmarkets.com
+   Subject: custom css.
+   Test: test #1
+   version: 0
+*/
+
+.main-content{
+    margin:0 auto;
+    padding:5%;
+    width:100%;
+    height:auto;
+    background-image:url(../img/wordcloudbg.png);
+    background-size:100% auto;
+    clear:both;
+}
+
+.game-heading{
+    font-family:'Comic Sans MS';
+    font-size:2.7em;
+    color:white;
+    text-decoration:underline;
+}
+
+.game-over{
+    padding:5%;
+    width:100%;
+    height:500px;
+}
+
+.texture{
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+
+.center{
+    text-align:center;
+}
+
+.fixedElement{
+    padding-bottom: 30px;  
+}
+
+.left {
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.quesNo
+{
+  border: 1px solid white;
+  font-size:1.1em;
+  padding: 3px;
+  margin:5px;
+  color:white;  
+}
+
+/*Progress bar */
+.progress {
+    width: 30%;
+    height: 20px;
+    background-color:white;
+    border-radius: 10px;
+}	
+.progressbar {
+    float: left;
+    height: 100%;
+    display: block;
+    background-color: #F4C430;
+    border-color:#F4C430;
+	font-size: 9pt;
+    color: #042157;
+    font-weight:bold;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+ 
+
+/*question statement */
+.question{
+	font-family: sans-serif;
+	text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+ font-size: 1.2em;
+  color:white;
+}
+.showStatement a{
+   
+  background: #3498db;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  color: #ffffff;
+  font-size:10px;
+  padding:6px 10px;
+  text-decoration: none;
+}
+/*text nodes */
+
+/*button*/
+.availablecharacters{
+    line-height:1.5em;
+     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:#666666;
+	font-family:monospace;
+	font-size:18px;
+	font-weight:normal;
+    text-align:center;
+	padding:8px 0;
+	text-decoration:none;
+    margin:25px auto;
+	text-shadow:0px 1px 0px #ffffff;
+    width:220px;    
+}
+.availablecharacters a{
+   
+}
+
+.attempted {
+    line-height:1.5em;   
+  	background-color:#1491eb;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #1491eb;
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:#ffffff;
+	font-family:monospace;
+	font-size:18px;
+	font-weight:normal;    
+    text-align:center;
+	padding:8px 0;
+	text-decoration:none;
+    margin:25px auto;
+    width:220px;  
+}
+
+.attempted a{
+    
+}
+
+
+.wordStatus{
+    vertical-align:central;
+    text-align: center;
+	font-family: lucida console, monospace ; 
+	font-variant: normal;
+	font-size: 15px;
+	line-height:1.5em;	
+    margin:0 6px;
+    color:white;
+}
+/*Next button*/
+.navigate{
+	text-align: center;
+	width: 100px;
+	font-family: lucida console; 
+    background-color: #F4C430;
+   -webkit-border-radius: 20;
+   -moz-border-radius: 20;
+   border-radius: 20px; 
+   color: #222;
+   font-size:13px;
+   padding:10px 20px;
+   cursor:pointer;
+ 
+ }
+
+.navigate a{
+    text-decoration:none;
+    color: #222;
+}
+
+.score{
+    font-family:'Comic Sans MS', 'Angsana New';
+    font-style:italic;
+    font-size:1.3em;
+    color:white;
+}
+
+.endscore{
+    font-family:monospace;
+    font-size:2.5em;
+    color:ghostwhite;   
+    height:200px;
+    padding-top:150px;
+}
+.wordFromGlossary{
+	font-family:monospace;
+    font-size:2.5em;
+    color:ghostwhite;   
+    height:100px;
+	padding-top:50px;
+}
+#footer {   
+   margin-top:10%;
+    width: 100%;
+}
+span.rules{	
+    font-size:1.4em;   
+    line-height:2;
+    font-family:'Comic Sans MS', 'Angsana New';
+    color:white;
+  
+}
+
+.rules-heading{    
+     font-size:1.9em;   
+    font-family:'Comic Sans MS', 'Angsana New';
+    color:white;
+}

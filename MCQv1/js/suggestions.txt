@@ -1,0 +1,22 @@
+issues:
+1. doNotRandomaize to stay in the front-end? [Not required]
+2. inclusion of option_id ,
+3. judging/tracking record of question using id.
+4. how to take the attempted option in the json format? 
+5. Defining a new result-set having the attempted option and id to be sent to the server side.
+6. where to place the correct option for each question? server/client
+	[sending the {id: "", attemptedOption: ""} pair to the server, server to send back the {id:"", correctOption:"", attemptedOption:"", score:""  sequence: [ {option_id: "", index: ""}, {option_id: "", index: ""}]} object]
+7. where to calculate the score? server/client
+	[score to be calculated on client side preferably]
+8. final json sent back to client on submit format:
+		{	
+			id:"1",
+			correctOption:	"B",
+			attemptedOption:"C",
+			score:"0"
+			sequence: [ 
+						//{option_id: "A", prev_option_id: "D"}, {option_id: "", index: ""}
+					]
+		} 
+
+
