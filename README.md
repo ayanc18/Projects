@@ -5,4 +5,6 @@ MCQv1 : A hybrid application that can be run both on web as well as mobile platf
 
 SolarEclipse : A demo simulation of game using Unity 5.
 
+OnlineSeat : A simple demo of online seat allocation logic/algorithm using JQuery.
+
 
